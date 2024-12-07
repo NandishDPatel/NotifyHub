@@ -20,7 +20,7 @@ passport.use(
     {
       clientID: keys.googleClientID,
       clientSecret: keys.googleClientSecret,
-      callbackURL: "https://notifyhub.onrender.com/auth/google/callback/",
+      callbackURL: "/auth/google/callback/",
     },
 
     async (accessToken, refreshToken, profile, done) => {

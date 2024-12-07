@@ -7,6 +7,7 @@ import LandingPage from "./LandingPage";
 
 const checking = () => <div>CheckingPage</div>;
 
+
 class App extends Component {
 
     componentDidMount(){
